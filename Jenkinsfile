@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/akashrathod7895/webhook-repo1.git']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/akashrathod7895/webhook-repo2.git']]])
             }
         }
 
